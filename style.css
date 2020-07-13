@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* this height is also responsive for all display */
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  font-size: 2.5rem;
+  margin: 20px;
+  color: white;
+}
+.colour-container {
+  font-size: 2.5rem;
+}
+.change-button {
+  height: 38px;
+  width: 125px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fffffffd;
+  font-size: 16px;
+  outline: none;
+  font-weight: bolder;
+}
